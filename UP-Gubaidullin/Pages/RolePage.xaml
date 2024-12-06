@@ -1,0 +1,16 @@
+﻿<Page x:Class="UP_Gubaidullin.Pages.RolePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UP_Gubaidullin.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RolePage" FontFamily="Montserrat">
+
+    <Grid Background="#FDF5DF">
+        <Button Margin="325,150,325,270" Click="Button_Exam" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ЭКЗАМЕНЫ</Button>
+        <Button Margin="325,200,325,220" Click="Button_DepHead" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ЗАВ. КАФЕДРЫ</Button>
+        <Button Margin="325,250,325,170" Click="Button_Engin" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ИНЖЕНЕР</Button>
+    </Grid>
+</Page>
