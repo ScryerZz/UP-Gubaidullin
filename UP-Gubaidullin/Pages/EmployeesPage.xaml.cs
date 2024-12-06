@@ -36,7 +36,7 @@ namespace UP_Gubaidullin.Pages
             var text = ((TextBox)sender).Text;
             TeachersDG.ItemsSource = null;
 
-            if (string.IsNullOr#FDF5DFSpace(text))
+            if (string.IsNullOrWhiteSpace(text))
                 TeachersDG.ItemsSource = teacherList;
             else
                 TeachersDG.ItemsSource = teacherList.Where(i => i.Employees.Surname.ToLower().Contains(text));

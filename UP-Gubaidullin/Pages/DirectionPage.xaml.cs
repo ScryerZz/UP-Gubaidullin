@@ -28,9 +28,9 @@ namespace UP_Gubaidullin.Pages
 
         private void Button_Save(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOr#FDF5DFSpace(NameTB.Text))
+            if (string.IsNullOrWhiteSpace(NameTB.Text))
                 return;
-            if (string.IsNullOr#FDF5DFSpace(CodeTB.Text))
+            if (string.IsNullOrWhiteSpace(CodeTB.Text))
                 return;
             var dir = new Departments { Cipher = CodeTB.Text, DepartmentName = NameTB.Text, Faculties = App.db.Faculties.FirstOrDefault(i => i.Abbreviation == FacTB.Text) };
             if (dir.Faculties == null)
