@@ -118,7 +118,7 @@ namespace UP_Gubaidullin.Pages
             if (current == null)
                 return;
 
-            App.db.Exams.Add(current);
+            App.db.Exams.Remove(current);
             App.db.SaveChanges();
             var userCode = App.user.Cipher;
 

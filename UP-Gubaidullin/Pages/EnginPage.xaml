@@ -9,7 +9,7 @@
       Title="EnginPage" FontFamily="Montserrat">
 
     <Grid Background="#FDF5DF">
-        <Button Margin="325,110,325,310" Click="Button_Click" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ПРЕПОДАВАТЕЛИ</Button>
+        <Button Margin="325,110,325,310" Click="Button_Click" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">СОТРУДНИКИ</Button>
         <Button Margin="325,160,325,260" Click="Button_Click_3" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ДИСЦИПЛИНЫ</Button>
         <Button Margin="325,210,325,210" Click="Button_Click_2" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">КАФЕДРЫ</Button>
         <Button Margin="325,260,325,160" Click="Button_Click_1" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ЭКЗАМЕНЫ</Button>

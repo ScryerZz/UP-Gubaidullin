@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace UP_Gubaidullin.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для HelloPage.xaml
-    /// </summary>
     public partial class HelloPage : Page
     {
         public HelloPage()
@@ -27,17 +24,16 @@ namespace UP_Gubaidullin.Pages
 
         private void OnEnter(object sender, RoutedEventArgs e)
         {
-            if (int.TryParse(PassTB.Text, out int pass))
+            if (int.TryParse(PasswordTB.Text, out int password))
             {
-                //MessageBox.Show(pass.ToString());
-                App.user = App.db.Employees.FirstOrDefault(i => i.ID_Employee == pass);
+                App.user = App.db.Employees.FirstOrDefault(i => i.ID_Employee == password);
                 if (App.user == null)
                 {
-                    MessageBox.Show("Нет сотрудника с таким кодом!");
+                    MessageBox.Show("Такого сотрудника не существует!");
                 }
                 else
                 {
-                    MessageBox.Show("Вы успешно вошли!");
+                    MessageBox.Show("Вы успешно авторизовались!");
                     NavigationService.Navigate(new RolePage());
                 }
             }

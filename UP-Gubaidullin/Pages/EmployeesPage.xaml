@@ -28,7 +28,7 @@
                     <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО ФАМИЛИИ</ComboBoxItem>
                     <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО ДОЛЖНОСТИ</ComboBoxItem>
                     <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО ЗАРПЛАТЕ</ComboBoxItem>
-                    <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО ЗВАНИЮ></ComboBoxItem>
+                    <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО ЗВАНИЮ</ComboBoxItem>
                     <ComboBoxItem Background="#FDF5DF" Foreground="#305478" FontSize="14" FontWeight="Medium">ПО СТЕПЕНИ</ComboBoxItem>
                 </ComboBox.Items>
             </ComboBox>

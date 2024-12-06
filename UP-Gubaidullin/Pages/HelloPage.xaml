@@ -11,7 +11,7 @@
     <Grid Background="#FDF5DF">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="300">
             <TextBlock Margin="5" HorizontalAlignment="Center" Foreground="#305478" FontSize="14" FontWeight="Medium">НЕОБХОДИМО ВВЕСТИ ПАРОЛЬ:</TextBlock>
-            <TextBox Name="PassTB" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="220" BorderThickness="0,0,0,0.5" BorderBrush="#305478" Height="25" Foreground="#305478" FontSize="14" FontWeight="Medium"></TextBox>
+            <TextBox Name="PasswordTB" Margin="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="220" BorderThickness="0,0,0,0.5" BorderBrush="#305478" Height="25" Foreground="#305478" FontSize="14" FontWeight="Medium"></TextBox>
             <Button HorizontalAlignment="Stretch" Margin="5" Click="OnEnter" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="25" Width="220" FontWeight="Medium">ВОЙТИ</Button>
         </StackPanel>
     </Grid>

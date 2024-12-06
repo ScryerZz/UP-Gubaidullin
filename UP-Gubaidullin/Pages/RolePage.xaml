@@ -9,7 +9,7 @@
       Title="RolePage" FontFamily="Montserrat">
 
     <Grid Background="#FDF5DF">
-        <Button Margin="325,150,325,270" Click="Button_Exam" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ЭКЗАМЕНЫ</Button>
+        <Button Margin="325,150,325,270" Click="Button_Exam" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ПРЕПОДАВАТЕЛЬ</Button>
         <Button Margin="325,200,325,220" Click="Button_DepHead" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ЗАВ. КАФЕДРЫ</Button>
         <Button Margin="325,250,325,170" Click="Button_Engin" Background="#305478" Foreground="#FDF5DF" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">ИНЖЕНЕР</Button>
     </Grid>
